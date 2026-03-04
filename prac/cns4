@@ -1,0 +1,27 @@
+Essential FTP Server Commands 
+These are used in an FTP client to interact with an FTP server: 
+
+    USER <username>: Sends the username to the server.
+    PASS <password>: Sends the password.
+    LIST / ls: Lists files and directories in the current remote directory.
+    PWD: Displays the current working directory on the remote server.
+    CWD <dir> / cd: Changes the current remote working directory.
+    RETR <filename> / get: Retrieves (downloads) a file from the server.
+    STOR <filename> / put: Stores (uploads) a file to the server.
+    APPE <filename>: Appends data to an existing file on the server.
+    DELE <filename> / delete: Deletes a file.
+    MKD <dir> / mkdir: Creates a new directory.
+    RMD <dir> / rmdir: Removes a directory.
+    TYPE <type>: Sets transfer mode (e.g., TYPE A for ASCII, TYPE I for Binary).
+    PASV: Enters passive mode for data transfer.
+    QUIT: Disconnects from the server. 
+
+Web Server (HTTP) Commands/Methods 
+Web servers use HTTP methods to handle client requests. 
+
+    GET: Requests data from a specified resource.
+    POST: Submits data to be processed to a specified resource.
+    PUT: Uploads a representation of the requested resource.
+    DELETE: Deletes the specified resource.
+    HEAD: Same as GET, but returns only the headers, not the body.
+    OPTIONS: Describes the communication options for the target resource.
